@@ -28,3 +28,8 @@ margin-left:200px;
   font-family: "Font";
   src: url("font.ttf") format("truetype");
 }
+p {
+    font-family: Font;
+text-align: center;
+    font-size: 45px;
+}
