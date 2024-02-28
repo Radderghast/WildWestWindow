@@ -8,12 +8,6 @@ body {
     margin-right: auto;
 }
 
-@media (max-width: 800px) {
-  .logo {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
 .cowboy {
     display: block;
     max-width: 200px;
