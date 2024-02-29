@@ -13,7 +13,8 @@ body {
 
 .window {
     width: 100%;
-    object-fit: cover;}
+    object-fit: cover;
+    position:relative;}
 
 .box {
     display: flex;
