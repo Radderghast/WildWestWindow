@@ -7,34 +7,23 @@ body {
     margin-left: auto;
     margin-right: auto;}
 
-.cowboy {
-    width: 100%;
-    object-fit: contain;}
+.cowboy {}
 
-.window {
-    width: 100%;
-    object-fit: contain;}
+.window {}
 
-.box {
+.container {
     display: flex;
     flex-direction: row;
-    position: relative;}
+      height: 200px;}
 
 .left {
-    flex: 1 1;
-    float: right;
-    position: absolute;}
+background-color: pink;}
 
 .mid {
-    flex: 1 1;
-    position: absolute;
-    height:500px;}
+background-color: yellow;}
 
 .right {
-    flex: 1 1;
-    position: relative;
-    float: left;
-    z-index:-1;}
+background-color: brown;}
 
 @font-face{
     font-family: "Font";
