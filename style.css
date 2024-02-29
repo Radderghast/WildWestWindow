@@ -1,5 +1,5 @@
 body {
-    background-color: #ff0000;
+    background-color: #FFE9A7;
 }
 .logo {
     display: block;
@@ -12,11 +12,13 @@ body {
     display: block;
     max-width: 200px;
     z-index:-1;
+    float: left;
 }
 .window {
     display: block;
     max-width: 600px;
     z-index:-1;
+    float: right;
 }
 @font-face{
     font-family: "Font";
