@@ -23,10 +23,10 @@ body {
     flex: 1 1 auto;}
 
 .mid {
-    flex: 1 1 auto;}
+    flex: 1 1 shrink;}
 
 .right {
-    flex: 1 1 auto;}
+    flex: 1 1 grow;}
 
 @font-face{
     font-family: "Font";
@@ -38,4 +38,15 @@ h1 {
     font-size: 45px;
 }
 
-
+.envelope {
+    padding: 1em;
+    border: 1em solid transparent;
+    background: linear-gradient(white, white)
+                padding-box,
+                repeating-linear-gradient(-45deg,
+                #000 0, #000 12.5%,
+                transparent 0, transparent 25%,
+                #000 0, #000 37.5%,
+                transparent 0, transparent 50%)
+                0 / 5em 5em;
+}
