@@ -8,30 +8,17 @@ body {
     margin-right: auto;
 }
 
-.cowboy {
-    display: block;
-    max-width: 200px;
-    z-index:-1;
-    float: left;
-}
-.window {
-    display: block;
-    max-width: 600px;
-    z-index:-1;
-    float: right;
-}
+.cowboy {}
+.window {}
 .flex-container {
     display: flex;
-}
+    flex-direction: row;}
 
-.flex-child {
-    flex: 1;
-}  
+.left {}  
 
-.flex-child:first-child {
+.mid {} 
 
-} 
-
+.right{}
 
 @font-face{
     font-family: "Font";
