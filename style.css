@@ -20,6 +20,19 @@ body {
     z-index:-1;
     float: right;
 }
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child:first-child {
+
+} 
+
+
 @font-face{
     font-family: "Font";
     src: url("font.ttf") format("truetype");
