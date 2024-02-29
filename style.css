@@ -30,7 +30,7 @@ h1 {
     font-size: 45px;
 }
 
-.border {
+.envelope {
     padding: 1em;
     border: 1em solid transparent;
     background: linear-gradient(white, white)
