@@ -13,21 +13,28 @@ body {
 
 .window {
     width: 100%;
-    object-fit: cover;
-    position:relative;}
+    object-fit: contain;}
 
 .box {
     display: flex;
-    flex-direction: row;}
+    flex-direction: row;
+    position: relative;}
 
 .left {
-    flex: 1 1;}
+    flex: 1 1;
+    float: right;
+    position: absolute;}
 
 .mid {
-    flex: 1 1;}
+    flex: 1 1;
+    position: absolute;
+    height:500px;}
 
 .right {
-    flex: 1 1;}
+    flex: 1 1;
+    position: relative;
+    float: left;
+    z-index:-1;}
 
 @font-face{
     font-family: "Font";
